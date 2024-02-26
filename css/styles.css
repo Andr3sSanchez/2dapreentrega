@@ -1,0 +1,95 @@
+/*agregamos un fondo para nuestra nav y titulo y logo, le damos estilo*/
+
+.fondo-de-pantalla{
+    background: url("../img/background.jpg");
+    background-repeat: round;
+}
+
+.logo{
+    max-width: 30%;
+}
+
+
+/* Le damos estilos a nuestro Titulos H1, H2, H3 con algunos atributos distintos entre ellos */
+
+.titulo{
+    color: black;
+    font-size: 8.5vw;
+    text-align: center;
+    font-family: "Lora", serif;
+}
+
+h2{
+    font-size: 5vw;
+    text-align: center;
+    color: black;
+    font-family: "Lora", serif;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: "Lora", serif;
+}
+
+/* Usamos otro tipo de family font para los parrafos y el menu navegable*/
+
+p{
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+nav{
+    text-align: right;
+    font-family: "Lora", serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Lora", serif;
+}
+
+.btn{
+    background-color: rgb(223, 250, 223);
+}
+
+
+/* agregamos lineas de bordes a la seccion de destinos, ponemos un margen y ajustamos los atributos de tamaño */
+
+.bordes{
+    border-style: solid;
+}
+
+/* Le damos estilo a la sección del formulario. Centrado y tipo de fuente*/
+
+.formulario{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+form{
+    font-weight: 1000;
+}
+
+/* Le damos estilo de alineado, fuente y bordes al footer */
+
+footer{
+    text-align: center;
+    border-style: solid;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+/* centramos especificamente el parrafo final del footer */
+
+footer p{
+    text-align: center;
+}
+
+/* Cambiamos el color de letra especificamente a los enlaces relativos del footer*/
+
+footer a{
+    color: darkblue;
+}
