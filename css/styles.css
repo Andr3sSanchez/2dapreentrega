@@ -31,6 +31,10 @@ h3{
     font-family: "Lora", serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* Usamos otro tipo de family font para los parrafos y el menu navegable*/
 
 p{
