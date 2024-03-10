@@ -1,99 +1,120 @@
-/*agregamos un fondo para nuestra nav y titulo y logo, le damos estilo*/
-
-.fondo-de-pantalla{
-    background: url("../img/background.jpg");
-    background-repeat: round;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo{
-    max-width: 30%;
+a {
+  text-decoration: none;
 }
 
-
-/* Le damos estilos a nuestro Titulos H1, H2, H3 con algunos atributos distintos entre ellos */
-
-.titulo{
-    color: black;
-    font-size: 8.5vw;
-    text-align: center;
-    font-family: "Lora", serif;
+img {
+  max-width: 100%;
 }
 
-h2{
-    font-size: 5vw;
-    text-align: center;
-    color: black;
-    font-family: "Lora", serif;
+.bordes {
+  border-style: solid;
+  margin-top: 3rem;
+  padding: 2rem;
 }
 
-h3{
-    font-size: 1.5rem;
-    font-family: "Lora", serif;
+.container {
+  justify-content: center;
+  align-items: center;
 }
 
-img{
-    max-width: 100%;
+header {
+  background: url("../img/background.jpg");
+  background-repeat: round;
+  box-shadow: 1rem 1rem 0.2rem;
+}
+header nav {
+  text-align: center;
+  font-family: "Lora", serif;
+}
+header nav li {
+  border-style: solid;
+  border-radius: 3rem;
+}
+header nav li:hover {
+  background-color: rgb(55, 212, 40);
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+header nav button:hover {
+  background-color: rgb(55, 212, 40);
+}
+header .titulo {
+  color: black;
+  font-size: 8.5vw;
+  text-align: center;
+  font-family: "Lora", serif;
 }
 
-/* Usamos otro tipo de family font para los parrafos y el menu navegable*/
-
-p{
-    text-align: justify;
-    font-family: "Playfair Display", serif;
-    font-weight: 500;
+.logo {
+  max-width: 30%;
+  filter: drop-shadow(0.5rem 0.5rem 0.1rem);
 }
 
-nav{
-    text-align: right;
-    font-family: "Lora", serif;
+.btn {
+  background-color: rgb(223, 250, 223);
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    font-family: "Lora", serif;
+.btn:hover {
+  color: white;
+  box-shadow: 0.3rem 0.3rem 0.1rem;
+  background-color: rgb(55, 212, 40);
+  transform: scale(1.1);
+  transition-duration: 0.8s;
+  transition-property: transform box-shadow;
+  transition-delay: 0.1s;
 }
 
-.btn{
-    background-color: rgb(223, 250, 223);
+section h2 {
+  font-size: 5vw;
+  text-align: center;
+  color: black;
+  font-family: "Lora", serif;
+}
+section h3 {
+  font-size: 1.5rem;
+  font-family: "Lora", serif;
 }
 
-
-/* agregamos lineas de bordes a la seccion de destinos, ponemos un margen y ajustamos los atributos de tamaño */
-
-.bordes{
-    border-style: solid;
+p {
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
 }
 
-/* Le damos estilo a la sección del formulario. Centrado y tipo de fuente*/
-
-.formulario{
-    text-align: center;
-    font-family: "Playfair Display", serif;
-    font-weight: 500;
+a {
+  color: black;
+  font-family: "Lora", serif;
 }
 
-form{
-    font-weight: 1000;
+.formulario, form {
+  text-align: end;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
 }
 
-/* Le damos estilo de alineado, fuente y bordes al footer */
-
-footer{
-    text-align: center;
-    border-style: solid;
-    font-family: "Playfair Display", serif;
-    font-weight: 500;
+form {
+  font-weight: 1000;
 }
 
-/* centramos especificamente el parrafo final del footer */
-
-footer p{
-    text-align: center;
+footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  text-align: center;
+  border-style: solid;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+footer p {
+  text-align: center;
+}
+footer a {
+  color: rgb(25, 25, 247);
 }
 
-/* Cambiamos el color de letra especificamente a los enlaces relativos del footer*/
-
-footer a{
-    color: darkblue;
-}
+/*# sourceMappingURL=styles.css.map */

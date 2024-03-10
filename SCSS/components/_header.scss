@@ -1,0 +1,40 @@
+@mixin flex($justify:center,$align:center){
+    justify-content: $justify;
+    align-items: $align;
+    }
+    
+    .container{
+        @include flex()
+    }
+
+header {
+    background: url("../img/background.jpg");
+    background-repeat: round;
+    box-shadow: 1rem 1rem 0.2rem;
+
+    nav {
+        text-align: center;
+        font-family: $fuente-titulos;
+        
+        li{
+            border-style: solid;
+            border-radius: 3rem;
+            &:hover{
+                background-color: $color-hover;
+                transform: scale(1.1);
+                transition-duration: 0.5s;
+        }
+        }
+    
+        button:hover{
+                    background-color: $color-hover;
+        }
+    }
+    .titulo {
+        color: $colortexto-principal;
+        font-size: 8.5vw;
+        text-align: center;
+        font-family: $fuente-titulos;
+    }
+}
+

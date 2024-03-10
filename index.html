@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +21,7 @@
   </head>
   <body>
     <!--Iniciamos nuestro header, Le damos una clase al header que nos contiene al nav, el logo y el titulo principal para darle estilo con el css-->
-    <header class="fondo-de-pantalla container">
+    <header class="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <div class="logo">
@@ -52,7 +50,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link"
                   aria-current="page"
                   href="./pages/nosotros.html"
                   >Nosotros</a
@@ -60,7 +58,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link"
                   aria-current="page"
                   href="./pages/destinos.html"
                   >Destinos</a
@@ -68,7 +66,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link"
                   aria-current="page"
                   href="./pages/ubicanos.html"
                   >Ubícanos</a
@@ -76,7 +74,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link"
                   aria-current="page"
                   href="./pages/contactanos.html"
                   >Contáctanos</a
@@ -102,7 +100,7 @@
     <main>
       <!--Iniciamos nuestra seccion principal. Dividimos en secciones para separar semanticamente los contenidos-->
       <section class="container">
-        <div class="row justify-content-around">
+        <div class="row">
           <h2>Turismo de aventura</h2>
           <p>
             Andes Adventure es tu puerta de entrada a experiencias únicas.
@@ -221,7 +219,7 @@
       <section class="formulario container">
         <!--Realizamos nuestra seccion contactanos con un formulario-->
         <h2>Contáctanos</h2>
-        <div class="row justify-content-center">
+        <div class="row">
           <p class="col">
             ¡Tu próxima aventura está a solo un mensaje de distancia! En nuestra
             sección de "Contáctanos", nos encantaría escucharte y ayudarte a
@@ -266,8 +264,8 @@
               <textarea
                 name="mensaje"
                 id="mensaje"
-                cols="20"
-                rows="5"
+                cols="22"
+                rows="4"
                 placeholder="dejanos tu duda o comentario"
               ></textarea>
             </div>
@@ -279,7 +277,7 @@
         </div>
       </section>
     </main>
-    <footer class="container">
+    <footer class="container bordes">
       <!--Para finalizar hacemos el footer, le agregamos el logo y las redes-->
       <div class="footer row justify-content-center">
         <img

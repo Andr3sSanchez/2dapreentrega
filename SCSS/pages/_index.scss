@@ -1,0 +1,51 @@
+section{
+    h2 {
+        font-size: 5vw;
+        text-align: center;
+        color: $colortexto-principal;
+        font-family: $fuente-titulos;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        font-family: $fuente-titulos;
+    }
+}
+p {
+    text-align: justify;
+    font-family: $fuente-parrafos;
+    font-weight: $tamano-parrafos;
+}
+
+a {
+    color: $colortexto-principal;
+    font-family: $fuente-titulos;
+}
+
+.formulario {
+    text-align: end;
+    font-family: $fuente-parrafos;
+    font-weight: $tamano-parrafos;
+}
+
+form {
+    @extend .formulario;
+    font-weight: 1000;
+}
+
+footer {
+    margin-top: $margen-superior;
+    padding: 1rem;
+    text-align: center;
+    border-style: solid;
+    font-family: $fuente-parrafos;
+    font-weight: $tamano-parrafos;
+
+    p {
+        text-align: center;
+    }
+
+    a {
+        color: rgb(25, 25, 247);
+    }
+}

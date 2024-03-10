@@ -1,0 +1,14 @@
+.btn {
+    background-color: rgb(223, 250, 223);
+}
+
+.btn:hover{
+    color: white;
+    box-shadow: 0.3rem 0.3rem 0.1rem;
+    background-color: $color-hover;
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+    transition-property: transform box-shadow;
+    transition-delay: 0.1s;
+
+}

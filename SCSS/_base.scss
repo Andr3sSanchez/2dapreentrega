@@ -1,0 +1,26 @@
+$color-hover: rgb(55, 212, 40);
+$fuente-titulos: "Lora", serif;
+$fuente-parrafos: "Playfair Display", serif;
+$tamano-parrafos: 500;
+$margen-superior: 3rem;
+$colortexto-principal: black;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bordes {
+    border-style: solid;
+    margin-top: $margen-superior;
+    padding: 2rem;
+}
